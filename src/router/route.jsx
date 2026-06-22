@@ -3,10 +3,11 @@ import {Route, Routes, Router} from 'react-router-dom';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Chairman from '../pages/Chairman';
-import Council from '../pages/Council';
+import Leadership from '../pages/Leadership';
 import Projects from '../pages/Projects';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
+import Navbar from '../components/Navbar';
 
 
 function AppRoutes() {
@@ -15,10 +16,11 @@ function AppRoutes() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/chairman' element = {<Chairman/>}/>
-        <Route path='/council' element={<Council/>}/>
+        <Route path='/leadership' element={<Leadership/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/navbar' element={<Navbar/>}/>
     </Routes>
   )
 }
