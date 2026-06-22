@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #4F4E4E;
-    color: #ffffff;
+    
 }
 body{
     font-family: 'Geist', sans-serif;
@@ -10,7 +9,7 @@ body{
 
 /* CHAIRMAN'S PAGE*/
 
-.bio{
+/* .bio{
     display: flex;
     gap: 30px;
     
@@ -68,4 +67,4 @@ p{
 .txt p{
     font-size: 16px;
 }
-
+ */
