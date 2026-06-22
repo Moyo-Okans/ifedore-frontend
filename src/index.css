@@ -1,8 +1,71 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #4F4E4E;
+    color: #ffffff;
 }
 body{
     font-family: 'Geist', sans-serif;
+}
+
+/* CHAIRMAN'S PAGE*/
+
+.bio{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.left{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.biography{
+    width: 80%;
+}
+.biography h2{
+    font-size: 42px;
+}
+.biography p{
+    margin-top: 20px;
+}
+
+h2{
+    color: #FCE59B;
+}
+p{
+    font-size: 25px;
+    line-height: 50px;
+}
+.right{
+    width: 100%;
+    height: 100vh;
+    background-color: #262624;
+}
+.pic{
+    width: 100%;
+    background-color: #262624;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pic img{
+    width: 90%;
+    border-radius: 20px;
+    border: 3px solid #D4AF37;
+}
+
+.achievements{
+    margin-top: 100px;
+}
+.achievements h2{
+    font-size: 30px;
+}
+.a1{
+    width: 60%;
+}
+.txt p{
+    font-size: 16px;
 }
 
