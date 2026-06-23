@@ -4,6 +4,13 @@ import Footer from '../components/Footer';
 import Timeline from '../components/Timeline';
 import Logo from '../assets/Logo.png';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
+import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
+import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
+import SettingsSystemDaydreamOutlinedIcon from '@mui/icons-material/SettingsSystemDaydreamOutlined';
+import RecyclingOutlinedIcon from '@mui/icons-material/RecyclingOutlined';
+import ViewInArOutlinedIcon from '@mui/icons-material/ViewInArOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
 import '../styles/about.css';
 
 function About() {
@@ -61,31 +68,148 @@ function About() {
                 <p className='value-text'>Open governance and accountability to the people</p>
               </div>
               <div className="core-value">
-                <VisibilityOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
+                <GroupOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
                 <p className="value">
-                  Transparency
+                  Inclusion
                 </p>
-                <p className='value-text'>Open governance and accountability to the people</p>
+                <p className='value-text'>Serving all wards and communities equally</p>
               </div>
               <div className="core-value">
-                <VisibilityOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
+                <ViewInArOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
                 <p className="value">
-                  Transparency
+                  Development
                 </p>
-                <p className='value-text'>Open governance and accountability to the people</p>
+                <p className='value-text'>Committed to sustainable progress and growth</p>
               </div>
               <div className="core-value">
-                <VisibilityOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
+                <ShieldOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
                 <p className="value">
-                  Transparency
+                  Integrity
                 </p>
-                <p className='value-text'>Open governance and accountability to the people</p>
+                <p className='value-text'>Honest stewardship of public resources</p>
               </div>
+              <div className="core-value">
+                <SettingsSystemDaydreamOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
+                <p className="value">
+                  Service
+                </p>
+                <p className='value-text'>Putting the welfare of residents first always</p>
+              </div>
+              <div className="core-value">
+                <RecyclingOutlinedIcon sx={{ color: '#34970E', fontSize: '35px'}}/>
+                <p className="value">
+                  Sustainability
+                </p>
+                <p className='value-text'>Honest stewardship of public resources</p>
+              </div>
+            </div>
+          </div>
+          <div className="communities">
+            <h2>Communities and Wards</h2>
+            <div className="communities-box">
+    
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara Oke</p>
+                    <h2 className="ward">W1</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipinsa</p>
+                    <h2 className="ward">W2</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Isarun</p>
+                    <h2 className="ward">W3</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ogbese</p>
+                    <h2 className="ward">W4</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Oke-Igbo</p>
+                    <h2 className="ward">W5</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Alade</p>
+                    <h2 className="ward">W6</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipogun</p>
+                    <h2 className="ward">W7</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara-Mokin</p>
+                    <h2 className="ward">W8</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Iju</p>
+                    <h2 className="ward">W9</h2>
+                </div>
+                <div className="community">
+                    
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Oke-Aro</p>
+                    <h2 className="ward">W10</h2>
+                </div>
             </div>
           </div>
         </div>
         <div className="about-right">
-
+            <h2>Quick Facts</h2>
+            <div className="fact-box">
+              <div className="fact-top">
+                <p>Ifedore LGA at a glance</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>State</p>
+                  <p className='fact-left'>Ondo State</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>HQ</p>
+                  <p className='fact-left'>Isarun</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Created</p>
+                  <p className='fact-left'>1991</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Population</p>
+                  <p className='fact-left'>~180,000</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Area</p>
+                  <p className='fact-left'>573 km²</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Wards</p>
+                  <p className='fact-left'>10</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Language</p>
+                  <p className='fact-left'>Yoruba (Ondo)</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Climate</p>
+                  <p className='fact-left'>Tropical rainforest</p>
+              </div>
+              <div className='fact' style={{ borderBottom: 'none' }}>
+                  <p className='fact-right'>Economy</p>
+                  <p className='fact-left'>Agriculture, trade</p>
+              </div>
+            </div>
+            <div className="part-box">
+              <p className="part-heading">
+                Part of Ondo State
+              </p>
+              <p className='part-text'>One of 18 local government areas in Ondo State, in the South-West geopolitical zone of Nigeria.</p>
+            </div>
         </div>
       </div>
       <Footer/>
