@@ -1,0 +1,136 @@
+.contact-topbar{
+    background-color: #1D3F2A;
+    border-bottom: 2px solid #d4af37;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-topbar h2{
+    color: white;
+}
+.contact-topbar p{
+    color: #98B2A4;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.contact-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contact-left{
+    width: 70%;
+    background-color: #4F4E4E;
+    padding: 30px;
+}
+.contact-left h2{
+    color: #FCE59B;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+    width: 100%;
+}
+.label label{
+    color: #d4af37;
+}
+.label input{
+    background: none;
+    border: solid 1.5px #9d9d9c;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.label input:focus, textarea{
+    outline: none;
+}
+.labels{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+textarea{
+    padding: 20px 30px;
+    background: none;
+    border: solid 1px gray;
+    padding: 15px 20px;
+    border-radius: 10px;
+    height: 100px;
+    font-family: 'Geist', sans-serif;
+    color: white;
+}
+.form-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.form-button button{
+    background-color: #1D3F2A;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.form-button img{
+    height: 15px;
+    /* width: 40px; */
+}
+
+
+.contact-right{
+    background-color: #262624;
+    width: 30%;
+    padding: 30px;
+}
+.contact-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contact-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #30302F;
+    padding:10px 20px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid #4F4E4E
+}
+.contact-right h2{
+    color: #FCE59B;
+    font-size: 20px;
+}
+.cb-right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cb-header{
+    color: #9d9d9c;
+    font-size: 13px;
+}
+.cb-text{
+    color: white;
+    font-size: 15px;
+}
+.social-media{
+    margin-top: 40px;
+}
+.sm-handles{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}

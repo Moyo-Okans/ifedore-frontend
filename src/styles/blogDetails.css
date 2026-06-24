@@ -1,0 +1,91 @@
+.bg-body {
+  background-color: #4F4E4E;
+  min-height: 100vh;
+}
+
+.bg-topbar {
+  background-color: #1D3F2A;
+  border-bottom: 2px solid #d4af37;
+  padding: 20px 30px;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #62D894;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.back-btn:hover {
+  color: #d4af37;
+}
+
+.blog-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bg-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 30px;
+  color: black;
+}
+
+.bg-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 24px;      /* fills the space without stretching */
+  object-position: center;  /* focuses on the center of the image */
+  border-radius: 16px;
+  image-rendering: auto;    /* lets the browser optimise quality */
+  display: block;   
+}
+
+.bg-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-top: 10px;
+}
+
+.bg-category {
+  background: white;
+  color: #00280e;
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.bg-author {
+  color: #62D894;
+  font-size: 14px;
+  padding: 0px 10px;
+  border-right: solid 1px gray;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bg-date {
+  color: #cfcfcf;
+  font-size: 13px;
+    display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bg-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.9;
+}
