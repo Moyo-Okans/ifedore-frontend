@@ -11,6 +11,8 @@ import Navbar from '../components/Navbar';
 import BlogDetails from '../pages/BlogDetails';
 import AdminLogin from '../pages/AdminLogin';
 import AddBlog from '../pages/AddBlog';
+import AdminDashboard from '../pages/AdminDashboard';
+import EditBlog from '../pages/EditBlog';
 
 
 function AppRoutes() {
@@ -24,9 +26,12 @@ function AppRoutes() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/navbar' element={<Navbar/>}/>
-        <Route path='/admin' element={<AdminLogin/>}/>
-        <Route path='/admin/create' element={<AddBlog/>}/>
         <Route path='/blog/:slug' element={<BlogDetails/>}/>
+        <Route path='/admin/login' element={<AdminLogin/>}/>
+        <Route path='/admin/create' element={<AddBlog/>}/>
+        <Route path='/admin/dashboard' element={<AdminDashboard/>}/>
+        <Route path='/admin/edit/:id' element={<EditBlog/>}/>
+        <Route/> 
     </Routes>
   )
 }

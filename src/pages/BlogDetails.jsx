@@ -62,9 +62,7 @@ function BlogDetails() {
           <span className="bg-date">{blog.createdAt}</span>
         </div> */}
 
-        <div className="bg-text">
-          {blog.content}
-        </div>
+        <div className="bg-text" dangerouslySetInnerHTML={{ __html: blog.content }}/>
       </div>
 
       <Footer />

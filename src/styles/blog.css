@@ -12,6 +12,7 @@
 .blog-body{
     background-color: #4F4E4E;
     padding: 30px;
+    min-height: 100vh;
     
     /* display: flex;
     flex-direction: column;
@@ -175,4 +176,30 @@
     padding: 5px 20px 15px 20px;
     font-size: 12px;
 
+}
+
+@media (max-width: 912px) {
+    .blog-topbar h2{
+        font-size: 20px;
+    }
+    .blog-body{
+        padding: 20px;
+    }
+    .blog-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .categories{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .search-bar{
+        width: 100%;
+        padding: 10px 5px;
+    }
+}
+@media (max-width: 500px) {
+    .blog-cards{
+        justify-content: center;
+    }
 }

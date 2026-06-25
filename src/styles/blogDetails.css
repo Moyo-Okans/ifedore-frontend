@@ -31,7 +31,7 @@
 }
 
 .bg-content {
-  max-width: 800px;
+  max-width: 750px;
   margin: 40px auto;
   padding: 0 30px;
   color: black;
@@ -83,9 +83,80 @@
   align-items: center;
   gap: 5px;
 }
-
 .bg-text {
   color: white;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.bg-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 32px 0 10px 0;
+}
+
+.bg-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin: 28px 0 12px 0;
+}
+
+.bg-text p {
+  margin: 0 0 10px 0;
+  color: #cfcfcf;
+}
+
+.bg-text strong {
+  color: white;
+  font-weight: 700;
+}
+
+.bg-text em {
+  color: #a0b0a8;
+  font-style: italic;
+}
+
+.bg-text ul,
+.bg-text ol {
+  padding-left: 24px;
+  margin: 0 0 10px 0;
+}
+
+.bg-text li {
+  color: #cfcfcf;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.bg-text a:hover {
+  color: #d4af37;
+}
+@media (max-width: 500px) {
+  .bg-topbar{
+    padding: 10px 15px;
+  }
+  .bg-meta{
+    gap: 10px;
+  }
+  .bg-author{
+    padding: 0;
+    font-size: 13px;
+    border: none;
+  }
+  .bg-content{
+    padding: 20px 25px;
+  }
+  .bg-image{
+    height: 250px;
+  }
+  .bg-text h2{
+    font-size: 22px;
+  }
+  .bg-text p{
+    font-size: 15px;
+  }
 }

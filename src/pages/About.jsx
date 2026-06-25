@@ -160,6 +160,56 @@ function About() {
                 </div>
             </div>
           </div>
+          <div className="about-right-responsive">
+            <h2>Quick Facts</h2>
+            <div className="fact-box">
+              <div className="fact-top">
+                <p>Ifedore LGA at a glance</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>State</p>
+                  <p className='fact-left'>Ondo State</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>HQ</p>
+                  <p className='fact-left'>Isarun</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Created</p>
+                  <p className='fact-left'>1991</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Population</p>
+                  <p className='fact-left'>~180,000</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Area</p>
+                  <p className='fact-left'>573 km²</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Wards</p>
+                  <p className='fact-left'>10</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Language</p>
+                  <p className='fact-left'>Yoruba (Ondo)</p>
+              </div>
+              <div className='fact'>
+                  <p className='fact-right'>Climate</p>
+                  <p className='fact-left'>Tropical rainforest</p>
+              </div>
+              <div className='fact' style={{ borderBottom: 'none' }}>
+                  <p className='fact-right'>Economy</p>
+                  <p className='fact-left'>Agriculture, trade</p>
+              </div>
+            </div>
+            <div className="part-box">
+              <p className="part-heading">
+                Part of Ondo State
+              </p>
+              <p className='part-text'>One of 18 local government areas in Ondo State, in the South-West geopolitical zone of Nigeria.</p>
+            </div>
+        </div>
         </div>
         <div className="about-right">
             <h2>Quick Facts</h2>

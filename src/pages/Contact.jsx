@@ -56,6 +56,78 @@ function Contact() {
                 </button>
               </div>
             </form>
+            <div className="contact-right-responsive">
+            <h2>Office Contact</h2>
+            <div className="contact-boxes">
+              <div className="contact-box">
+                <FmdGoodOutlinedIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                <div className="cb-right">
+                  <p className="cb-header">
+                    Address
+                  </p>
+                  <p className="cb-text">
+                    LGA Secretariat, Isarun, Ifedore, Ondo State
+                  </p>
+                </div>
+              </div>
+              <div className="contact-box">
+                <LocalPhoneIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                <div className="cb-right">
+                  <p className="cb-header">
+                    Office Line
+                  </p>
+                  <p className="cb-text">
+                    080 0000 0000
+                  </p>
+                </div>
+              </div>
+              <div className="contact-box">
+                <MailOutlined sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                <div className="cb-right">
+                  <p className="cb-header">
+                    Email
+                  </p>
+                  <p className="cb-text">
+                    info@ifedorelga.ng
+                  </p>
+                </div>
+              </div>
+              <div className="contact-box">
+                <WorkIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                <div className="cb-right">
+                  <p className="cb-header">
+                    Office Hours
+                  </p>
+                  <p className="cb-text">
+                    Mon-Fri, 8am - 4pm
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="social-media">
+              <h2>Social Media Handles</h2>
+              <div className="sm-handles">
+                <Link to='https://www.facebook.com/share/1HpX74XCxd/'>
+                  <FacebookIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                </Link>
+                <Link to='https://www.instagram.com/ifedore_lg_updates?igsh=MWVxcXlrcmdxbmFucA=='>
+                  <InstagramIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px',
+                  borderRadius: '5px'
+                }}/>
+                </Link>
+              </div>
+            </div>
+        </div>
         </div>
         <div className="contact-right">
             <h2>Office Contact</h2>

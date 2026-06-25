@@ -87,7 +87,9 @@ textarea{
     /* width: 40px; */
 }
 
-
+.contact-right-responsive{
+    display: none;
+}
 .contact-right{
     background-color: #262624;
     width: 30%;
@@ -133,4 +135,50 @@ textarea{
     display: flex;
     margin-top: 10px;
     gap: 10px;
+}
+
+@media (max-width: 912px) {
+    .contact-topbar{
+        padding: 20px 20px;
+    }
+    .contact-topbar h2{
+        font-size: 22px;
+    }
+    .contact-topbar p{
+        font-size: 13px;
+    }
+    .contact-body{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-right{
+        display: none;
+    }
+    .contact-left{
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact-left h2{
+        font-size: 22px;
+    }
+     .contact-form{
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .label label{
+
+    }
+    .labels{
+        flex-wrap: wrap;
+    }
+    .contact-right-responsive{
+        display: block;
+        margin-top: 80px;
+    }
+   
+    .contact-right-responsive h2{
+        font-size: 20px;
+    }
 }
