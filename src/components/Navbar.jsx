@@ -9,10 +9,10 @@ function Navbar() {
   const links = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
+        { path: '/chairman', label: 'Chairman' },
     { path: '/leadership', label: 'Leadership' },
     { path: '/projects', label: 'Projects' },
     { path: '/blog', label: 'Blog' },
-    { path: '/gallery', label: 'Gallery' },
     { path: '/contact', label: 'Contact' },
   ]
 

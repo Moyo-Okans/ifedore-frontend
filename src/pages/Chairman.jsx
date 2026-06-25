@@ -30,14 +30,16 @@ function Chairman() {
           <p className='location'>Ifedore Local Government Area · Ondo State</p>
           <p className='tenure'>In office since [Month, Year]</p>
           <div className="chairmanbtn">
-            <button className="chairbtn">
+            
+            <a href="mailto:chairman@ifedorelga.gov.ng" className="chairbtn">
               <EmailOutlinedIcon />
-              Official mail
-            </button>
-            <button className="chairbtn">
+              Official Mail
+            </a>
+
+            <a href="tel:+2348079999989" className="chairbtn">
               <LocalPhoneOutlinedIcon />
               Official Phone
-            </button>
+            </a>
           </div>
         </div>
       </div>

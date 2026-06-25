@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
 import "../styles/home.css";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -17,39 +18,18 @@ import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import LocalHospitalOutlinedIcon from '@mui/icons-material/LocalHospitalOutlined';
 import WaterDropOutlinedIcon from '@mui/icons-material/WaterDropOutlined';
 import BoltOutlinedIcon from '@mui/icons-material/BoltOutlined';
+import AgricultureOutlinedIcon from '@mui/icons-material/AgricultureOutlined';
+import ConstructionOutlinedIcon from '@mui/icons-material/ConstructionOutlined';
+import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
 
-/* ─── DATA ─────────────────────────────────────────────── */
+/* ─── STATIC DATA ───────────────────────────────────────── */
 
 const galleryImages = [
-  { src: gallery1, label: "chairman", bg: "#1a4a2e",  },
-  { src: gallery2, label: "Palm plants",  bg: "#27500a",  },
-  { src: gallery3, label: "Town hall — June 2026",  bg: "#0c447c", },
-  { src: gallery4, label: "Tomat Harvest",    bg: "#633806",  },
-  { src: gallery5, label: "Sectariat Building",          bg: "#3c3489",  },
-];
-
-const news = [
-  {
-    tag: "Infrastructure", tagClass: "tag-infra",
-    icon: AddRoadOutlinedIcon,   // ✅ component reference, no quotes
-    iconBg: "#1a4a2e",
-    headline: "New road rehabilitation begins in Igbara-Oke community",
-    date: "June 11, 2026",
-  },
-  {
-    tag: "Education", tagClass: "tag-edu",
-    icon: SchoolOutlinedIcon,    // ✅ component reference, no quotes
-    iconBg: "#27500a",
-    headline: "Council commissions three new classrooms in primary schools",
-    date: "June 5, 2026",
-  },
-  {
-    tag: "Health", tagClass: "tag-health",
-    icon: LocalHospitalOutlinedIcon, // ✅ component reference, no quotes
-    iconBg: "#412402",
-    headline: "Free medical outreach scheduled for rural wards this month",
-    date: "May 29, 2026",
-  },
+  { src: gallery1, label: "Chairman",        bg: "#1a4a2e" },
+  { src: gallery2, label: "Palm plants",     bg: "#27500a" },
+  { src: gallery3, label: "Town hall — June 2026", bg: "#0c447c" },
+  { src: gallery4, label: "Tomato Harvest",  bg: "#633806" },
+  { src: gallery5, label: "Secretariat Building",  bg: "#3c3489" },
 ];
 
 const attractions = [
@@ -66,17 +46,46 @@ const projects = [
   { icon: WaterDropOutlinedIcon, name: "Rural water supply scheme",    loc: "Ipinsa & Oke-Igbo communities", status: "Completed",   statusClass: "status-done" },
 ];
 
+/* ─── CATEGORY CONFIG ───────────────────────────────────── */
+
+const categoryConfig = {
+  Development: { icon: ConstructionOutlinedIcon, iconBg: "#4a2e09", tagClass: "tag-infra", color: '#d4af37', },
+  News:        { icon: TextSnippetOutlinedIcon,  iconBg: "#262624", tagClass: "tag-news" , color: '#9d9d9c', },
+  Education:   { icon: SchoolOutlinedIcon,       iconBg: "#2c591b", tagClass: "tag-edu" , color: '#6ceda3',  },
+  Health:      { icon: LocalHospitalOutlinedIcon,iconBg: "#4a0909", tagClass: "tag-health", color: '#ba5454',},
+  Agriculture: { icon: AgricultureOutlinedIcon,  iconBg: "#00280e", tagClass: "tag-agric", color: '#539c37', },
+  default:     { icon: TextSnippetOutlinedIcon,  iconBg: "#262624", tagClass: "tag-news", color: '#9d9d9c',  },
+}
+const formatDate = (dateStr) => new Date(dateStr).toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric'
+})
+
 /* ─── HOMEPAGE ──────────────────────────────────────────── */
 
 export default function Homepage() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  // ✅ Icon is NOT here — it belongs inside the map, see below
+  const navigate = useNavigate()
+  const [newsBlogs, setNewsBlogs] = useState([])
+  const [newsLoading, setNewsLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchNews = async () => {
+      try {
+        const res = await fetch('http://localhost:3000/api/blog/all?limit=3')
+        const data = await res.json()
+        setNewsBlogs(data.blogs || [])
+      } catch (error) {
+        console.error(error)
+      } finally {
+        setNewsLoading(false)
+      }
+    }
+    fetchNews()
+  }, [])
 
   return (
     <div className="homee">
 
       <Navbar />
-
       <HeroSlideshow />
 
       {/* Chairman bar */}
@@ -89,14 +98,14 @@ export default function Homepage() {
             "Our commitment is to deliver development that touches every household in Ifedore."
           </div>
         </div>
-        <button className="chairman-link">View Profile →</button>
+        <button className="chairman-link"      onClick={() => navigate('/chairman')}>View Profile →</button>
       </div>
 
       {/* Gallery */}
       <section className="section">
         <div className="section-header">
           <h2 className="section-title">Gallery</h2>
-          <a href="#" className="view-all">View all →</a>
+          <a href="#" className="view-all"  onClick={() => navigate('/projects')}>View all →</a>
         </div>
         <div className="gallery-strip">
           {galleryImages.map((img, i) => (
@@ -123,25 +132,48 @@ export default function Homepage() {
       <section className="section section-alt">
         <div className="section-header">
           <h2 className="section-title">Latest News & Announcements</h2>
-          <a href="#" className="view-all">View all →</a>
+          
+           <a className="view-all"
+            onClick={() => navigate('/blog')}
+            style={{ cursor: 'pointer' }}
+          >
+            View all →
+          </a>
         </div>
-        <div className="news-grid">
-          {news.map((n, i) => {
-            const Icon = n.icon; // ✅ inside the map, so n exists here
-            return (
-              <div className="news-card" key={i}>
-                <div className="news-thumb" style={{ background: n.iconBg }}>
-                  <Icon sx={{ fontSize: 40, color: "#D4AF37" }} /> {/* ✅ rendered as JSX */}
+
+        {newsLoading ? (
+          <p className="news-loading">Loading...</p>
+        ) : newsBlogs.length === 0 ? (
+          <p className="news-loading">No news available.</p>
+        ) : (
+          <div className="news-grid">
+            {newsBlogs.map((blog) => {
+              const config = categoryConfig[blog.categories] || categoryConfig.default
+              const Icon = config.icon
+              return (
+                <div
+                  className="news-card"
+                  key={blog._id}
+                  onClick={() => navigate(`/blog/${blog.slug}`)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="news-thumb" style={{ backgroundColor: config.iconBg, color: config.color }}>
+                    {blog.image
+                      ? <img src={blog.image} alt={blog.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                      
+                      : <Icon sx={{ fontSize: 50}} />
+                    }
+                  </div>
+                  <div className="news-body">
+                    <span className={`news-tag ${config.tagClass}`}>{blog.categories}</span>
+                    <p className="news-headline">{blog.title}</p>
+                    <p className="news-date">{formatDate(blog.createdAt)}</p>
+                  </div>
                 </div>
-                <div className="news-body">
-                  <span className={`news-tag ${n.tagClass}`}>{n.tag}</span>
-                  <p className="news-headline">{n.headline}</p>
-                  <p className="news-date">{n.date}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+              )
+            })}
+          </div>
+        )}
       </section>
 
       {/* Tourist Attractions */}
@@ -153,9 +185,9 @@ export default function Homepage() {
           {attractions.map((a, i) => (
             <div className="attraction-card" key={i}>
               <div style={{
-                position: "absolute", inset: 0,      // ✅ added position absolute
-                backgroundImage: `url(${a.img})`,    // ✅ backgroundImage not background
-                backgroundSize: "cover",              // ✅ cover not fill
+                position: "absolute", inset: 0,
+                backgroundImage: `url(${a.img})`,
+                backgroundSize: "cover",
                 backgroundPosition: "center",
               }} />
               <div className="attraction-overlay" />
@@ -176,7 +208,7 @@ export default function Homepage() {
         </div>
         <div className="projects-grid">
           {projects.map((p, i) => {
-            const ProjIcon = p.icon; // ✅ same pattern for project icons
+            const ProjIcon = p.icon
             return (
               <div className="project-card" key={i}>
                 <div className="project-icon">
@@ -188,13 +220,12 @@ export default function Homepage() {
                 </div>
                 <span className={`project-status ${p.statusClass}`}>{p.status}</span>
               </div>
-            );
+            )
           })}
         </div>
       </section>
 
       <Footer />
-
     </div>
-  );
+  )
 }

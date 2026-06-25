@@ -19,7 +19,7 @@
 
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; font-family: inherit; }
-img { display: block; width: 100%; object-fit: cover; }
+/* img { display: block; width: 100%; object-fit: cover; } */
 
 
 
@@ -32,12 +32,12 @@ img { display: block; width: 100%; object-fit: cover; }
   position: relative;
   height: 70vh;
   overflow: hidden;
-  padding-inline: 60px;
+  padding-inline: 40px;
 }
 .hero-slide {
   position: absolute; inset: 0;
   display: flex; align-items: center;
-  padding: 0 60px;
+  padding: 0 40px;
   opacity: 0;
   transition: opacity 0.6s ease;
   pointer-events: none;
@@ -62,13 +62,15 @@ img { display: block; width: 100%; object-fit: cover; }
 }
 .hero-title {
   color: var(--white);
-  font-size: 50px; font-weight: 600;
+  font-size: 40px; font-weight: 600;
   line-height: 1.25; margin-bottom: 12px;
 }
 .hero-desc {
   color: #c8dfd0;
-  font-size: 20px; line-height: 1.8;
-  margin-bottom: 22px;
+  font-size: 15px; 
+  line-height: 1.7;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 .btn-primary {
@@ -126,7 +128,9 @@ padding: 0px;} */
   display: flex; align-items: center; gap: 16px;
 }
 .chairman-avatar {
-  width: 100px; height: 100px; border-radius: 50%;
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%;
   background: var(--green-mid);
   display: flex; align-items: center; justify-content: center;
   color: var(--gold); font-size: 24px; font-weight: 600;
@@ -134,7 +138,7 @@ padding: 0px;} */
 }
 .chairman-info { flex: 2; min-width: 0; }
 .chairman-label { font-size: 14px; color: #854F0B; text-transform: uppercase; letter-spacing: 0.4px; }
-.chairman-name { font-size: 24px; font-weight: 600; color: #27500A; }
+.chairman-name { font-size: 22px; font-weight: 600; color: #27500A; }
 .chairman-quote { font-size: 14px; color: #633806; font-style: italic; margin-top: 1px; }
 .chairman-link {
   background: var(--green-mid); color: var(--gold);
@@ -148,7 +152,7 @@ padding: 0px;} */
 
 /* ── Section shared ── */
 .section { padding: 48px 40px; 
-padding-inline: 60px;}
+padding-inline: 30px;}
 .section-alt { background: var(--bg-light); }
 .section-header {
   display: flex; align-items: center;
@@ -156,7 +160,7 @@ padding-inline: 60px;}
   margin-bottom: 24px;
 }
 .section-title {
-  font-size: 35px; font-weight: 600;
+  font-size: 25px; font-weight: 600;
   color: #c8dfd0;
 }
 .view-all {
@@ -230,7 +234,8 @@ padding-inline: 60px;}
 .news-body { padding: 20px;
  display: flex;
   flex-direction: column;
-  gap: 15px; }
+  gap: 15px; 
+}
 .news-tag {
   display: flex;
   flex-direction: column;
@@ -241,9 +246,11 @@ padding-inline: 60px;}
   width: fit-content;
   text-transform: uppercase; letter-spacing: 0.3px;
 }
-.tag-infra { background: #e8f5ec; color: #1a4a2e; }
-.tag-edu   { background: #e6f1fb; color: #0c447c; }
-.tag-health{ background: #faeeda; color: #854F0B; }
+.tag-infra { background: #e8f5ec; color: #4a2e09; }
+.tag-edu   { background: #e6f1fb; color: #2c591b;}
+.tag-health{ background: #faeeda; color: #4a0909; }
+.tag-news{ background: #faeeda; color: #262624; }
+.tag-agric{ background: #faeeda; color: #00280e; }
 .news-headline { 
     font-size: 18px;
     font-weight: 300;
@@ -281,13 +288,13 @@ padding-inline: 60px;}
   padding: 14px;
 }
 .attraction-name {
-  color: var(--white); font-size: 24px; font-weight: 600;
+  color: var(--white); font-size: 22px; font-weight: 600;
   margin-bottom: 6px;
 }
 .attraction-ward {
   display: inline-block;
   background: var(--gold); color: #412402;
-  font-size: 16px; font-weight: 600;
+  font-size: 15px; font-weight: 600;
   padding: 2px 10px; border-radius: 10px;
 }
 
@@ -329,7 +336,7 @@ padding-inline: 60px;}
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   .section { padding: 40px 28px; }
-  .top-bar, .navbar, .chairman-bar, .footer { padding-left: 28px; padding-right: 28px; }
+  .top-bar,.chairman-bar, .footer { padding-left: 28px; padding-right: 28px; }
   .news-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
 }
@@ -371,4 +378,10 @@ padding-inline: 60px;}
   .chairman-quote { display: none; }
   .chairman-link{font-size: 10px;}
   .attraction-card { height: 160px; }
+  .project-name, .attraction-name{
+    font-size: 16px;
+  }
+  .attraction-ward{
+    font-size: 14px;
+  }
 }
