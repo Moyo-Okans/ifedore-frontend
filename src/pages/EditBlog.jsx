@@ -37,7 +37,7 @@ function EditBlog() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/api/admin/${id}`, {
+        const res = await fetch(`https://ifedore-backend.onrender.com/api/admin/${id}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`
           }
@@ -97,7 +97,7 @@ function EditBlog() {
       formData.append('content', form.content)
       if (form.image) formData.append('image', form.image)
 
-      const res = await fetch(`http://localhost:3000/api/admin/edit/${id}`, {
+      const res = await fetch(`https://ifedore-backend.onrender.com/api/admin/edit/${id}`, {
         method: 'PATCH',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
