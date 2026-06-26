@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import slide1 from "../assets/ifedore3.webp";
 import Hero from "../assets/health.webp";
-import Youth from "../assets/waterpplant.webp";
+import Youth from "../assets/watertank.webp";
 import slide4 from '../assets/ifedore4.webp'
 import { Link } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
