@@ -20,7 +20,7 @@ function AdminDashboard() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await fetch('http://localhost:3000/api/admin/all', {
+        const res = await fetch('https://ifedore-backend.onrender.com/api/admin/all', {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`
           }
@@ -44,7 +44,7 @@ function AdminDashboard() {
   const handleDelete = async (id) => {
     if (!window.confirm('Are you sure you want to delete this post?')) return
     try {
-      await fetch(`http://localhost:3000/api/admin/delete/${id}`, {
+      await fetch(`https://ifedore-backend.onrender.com/api/admin/delete/${id}`, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`

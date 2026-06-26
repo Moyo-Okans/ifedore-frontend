@@ -70,7 +70,7 @@ export default function Homepage() {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const res = await fetch('http://localhost:3000/api/blog/all?limit=3')
+        const res = await fetch('https://ifedore-backend.onrender.com/api/blog/all?limit=3')
         const data = await res.json()
         setNewsBlogs(data.blogs || [])
       } catch (error) {

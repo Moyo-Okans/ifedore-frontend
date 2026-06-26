@@ -63,7 +63,7 @@ function Blog() {
         if (activeCategory !== 'All') params.append('category', activeCategory)
         if (search) params.append('search', search)
 
-        const res = await fetch(`http://localhost:3000/api/blog/all?${params}`)
+        const res = await fetch(`https://ifedore-backend.onrender.com/api/blog/all?${params}`)
         const data = await res.json()
         setBlogs(data.blogs)
       } catch (error) {

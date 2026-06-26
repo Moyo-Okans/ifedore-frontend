@@ -16,7 +16,7 @@ function BlogDetails() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/api/blog/${slug}`)
+        const res = await fetch(`https://ifedore-backend.onrender.com/api/blog/${slug}`)
         const data = await res.json()
         console.log(data)
         setBlog(data)

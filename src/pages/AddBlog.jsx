@@ -64,7 +64,7 @@ function AddBlog() {
       formData.append('content', form.content)
       formData.append('image', form.image)
 
-      const res = await fetch('http://localhost:3000/api/admin/create', {
+      const res = await fetch('https://ifedore-backend.onrender.com/api/admin/create', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
