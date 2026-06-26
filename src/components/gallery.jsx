@@ -25,32 +25,32 @@ const images = [
     id: 1,
     src: gallery01,                                   // ← always use the imported variable
     alt: "Community members and children gathered at Hope Orphanage with donated food items",
-    caption: "Hope Orphanage Donation Drive",
-    category: "Outreach",
+    caption: "Chairman at community event",
+    category: "Community",
     span: "portrait",
   },
   {
     id: 2,
     src: gallery02,
     alt: "Medical outreach team posing in front of the Medical Outreach banner",
-    caption: "Medical Outreach — Akure",
-    category: "Healthcare",
+    caption: "community Outreach",
+    category: "Outreach",
     span: "landscape",
   },
   {
     id: 3,
     src: gallery03,
     alt: "Volunteers distributing medical supplies and medications at an outreach table",
-    caption: "Medical Supply Distribution",
-    category: "Healthcare",
+    caption: "APC Banner",
+    category: "Community",
     span: "landscape",
   },
   {
     id: 4,
     src: gallery04,
     alt: "Coordinator in white attire at the community outreach event",
-    caption: "Community Coordinator",
-    category: "Leadership",
+    caption: "Medical Outreach",
+    category: "Healthcare",
     span: "portrait",
   },
   
@@ -58,7 +58,7 @@ const images = [
     id: 5,
     src: gallery06,
     alt: "Volunteer team group photo outdoors in matching white t-shirts",
-    caption: "Ifedore LGA Volunteer Corps",
+    caption: "Road Development Project",
     category: "Community",
     span: "landscape",
   },
@@ -66,24 +66,24 @@ const images = [
     id: 6,
     src: gallery07,
     alt: "Team gathered in front of the Medical Outreach banner — I Care Therefore I Act",
-    caption: '"I Care Therefore I Act" — Outreach Campaign',
-    category: "Healthcare",
+    caption: 'Road Development Project',
+    category: "Community",
     span: "landscape",
   },
   {
     id: 7,
     src: gallery08,
     alt: "Volunteers with stacked food supplies inside a community hall",
-    caption: "Supplies Ready for Distribution",
-    category: "Outreach",
+    caption: "Mr chairman at communty event",
+    category: "Leadership",
     span: "landscape",
   },
   {
     id: 8,
     src: gallery09,
     alt: "Team photo in front of Medical Outreach backdrop",
-    caption: "Medical Outreach — Team Debrief",
-    category: "Healthcare",
+    caption: "Building Development Project",
+    category: "Community",
     span: "landscape",
   },
   {
@@ -91,25 +91,25 @@ const images = [
     src: gallery10,
     alt: "Volunteers assembled outdoors for a group photograph before the outreach",
     caption: "Pre-Event Assembly",
-    category: "Community",
+    category: "Leadership",
     span: "landscape",
   },
   {
     id: 10,
     src: gallery11,
     alt: "Volunteer addressing seated community members at an outdoor health talk",
-    caption: "Community Health Talk",
-    category: "Healthcare",
+    caption: "Palm Planting",
+    category: "Commmunity",
     span: "landscape",
   },
   { id: 11, src: gallery12, alt: "Gallery image 12", caption: "Community Event", category: "Community", span: "landscape" },
   { id: 12, src: gallery13, alt: "Gallery image 13", caption: "Outreach Activity", category: "Outreach", span: "landscape" },
-  { id: 13, src: gallery14, alt: "Gallery image 14", caption: "Healthcare Service", category: "Healthcare", span: "landscape" },
+  { id: 13, src: gallery14, alt: "Gallery image 14", caption: "Tomato Planting", category: "Healthcare", span: "landscape" },
   { id: 14, src: gallery16, alt: "Gallery image 16", caption: "Community Gathering", category: "Community", span: "landscape" },
-  { id: 15, src: gallery17, alt: "Gallery image 17", caption: "Volunteer Work", category: "Outreach", span: "landscape" },
-  { id: 16, src: gallery18, alt: "Gallery image 18", caption: "Medical Support", category: "Healthcare", span: "landscape" },
-  { id: 17, src: gallery19, alt: "Gallery image 19", caption: "Leadership Meeting", category: "Leadership", span: "landscape" },
-  { id: 18, src: gallery20, alt: "Gallery image 20", caption: "Community Support", category: "Community", span: "landscape" },
+  { id: 15, src: gallery17, alt: "Gallery image 17", caption: "Sectariat Building", category: "Community", span: "landscape" },
+  { id: 16, src: gallery18, alt: "Gallery image 18", caption: "Leadership Meeting", category: "Leadership", span: "landscape" },
+  { id: 17, src: gallery19, alt: "Gallery image 19", caption: "Sectariat Building", category: "Community", span: "landscape" },
+  { id: 18, src: gallery20, alt: "Gallery image 20", caption: "Sectariat Building", category: "Community", span: "landscape" },
 ];
 
 const CATEGORIES = ["All", "Outreach", "Healthcare", "Community", "Leadership"];
@@ -189,19 +189,7 @@ export default function Gallery() {
       </div>
 
       <div className={styles.container}>
-        <header className={styles.header}>
-          <span className={styles.eyebrow}>Ifedore Local Government Area · Ondo State</span>
-          <div className={styles.titleRow} aria-hidden="true">
-            <div className={styles.goldRule} />
-            <span className={styles.emblem}>✦</span>
-            <div className={styles.goldRule} />
-          </div>
-          <h2 className={styles.title}>Our Impact &amp; Community Outreach</h2>
-          <p className={styles.subtitle}>
-            Documenting our commitment to health, welfare, and community development
-            across Ifedore — every initiative, every life touched.
-          </p>
-        </header>
+        
 
         <nav className={styles.filterBar} aria-label="Filter gallery by category">
           {CATEGORIES.map((cat) => (
@@ -252,19 +240,7 @@ export default function Gallery() {
           <p className={styles.empty}>No photos found in this category.</p>
         )}
 
-        <div className={styles.statsStrip} aria-label="Impact statistics">
-          {[
-            { value: "2,500+", label: "Beneficiaries Reached" },
-            { value: "8",      label: "Communities Served" },
-            { value: "12",     label: "Outreach Events" },
-            { value: "300+",   label: "Volunteers Mobilised" },
-          ].map((s) => (
-            <div key={s.label} className={styles.stat}>
-              <span className={styles.statValue}>{s.value}</span>
-              <span className={styles.statLabel}>{s.label}</span>
-            </div>
-          ))}
-        </div>
+        
       </div>
 
       {activeImage && (
