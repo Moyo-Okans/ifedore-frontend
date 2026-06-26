@@ -99,9 +99,9 @@ function Projects() {
                <p>Recent photos from projects, events and community activities across Ifedore</p>
               </div>
               
-              <div className="gallerypic">
+              
                 <Gallery/>
-              </div>
+              
             </div>
         </div>
       <Footer />

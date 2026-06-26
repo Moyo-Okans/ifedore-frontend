@@ -155,7 +155,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-     width: 90%;
+     width: 98%;
      margin-top: 100px;
     
 }
@@ -163,12 +163,7 @@
     width: 100%;
 }
 .gallerypic{
-    margin-top: 50px;
    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 
 }
 
