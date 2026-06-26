@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 .contact-body{
-    height: 74vh;
+    /* height: 74vh; */
 }
 .contact-topbar h2{
     color: white;
