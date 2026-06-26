@@ -129,6 +129,9 @@
     flex-direction: column;
     gap: 15px;
 }
+.quick-links h3{
+    width: 100%;
+}
 .footer-logo {
     display: flex;
     gap: 15px;
