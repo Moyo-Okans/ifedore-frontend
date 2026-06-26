@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Gallery from '../components/Gallery'
 import AddRoadOutlinedIcon from '@mui/icons-material/AddRoadOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import WaterDropOutlinedIcon from '@mui/icons-material/WaterDropOutlined';
@@ -36,10 +37,7 @@ function Projects() {
                        <h2>3</h2>
                       <span>Planned</span>
                   </div>
-                  <div className="statscard">
-                       <h2>₦1.8B</h2>
-                      <span>Total Invested</span>
-                  </div>
+                  
                 </div>
 
 
@@ -102,7 +100,7 @@ function Projects() {
               </div>
               
               <div className="gallerypic">
-                <img src={gallerymain} alt="" />
+                <Gallery/>
               </div>
             </div>
         </div>

@@ -171,10 +171,7 @@
     width: 100%;
 
 }
-.gallerypic img{
-    width: 90%;
-    
-}
+
 /* Tablet — up to 1024px */
 @media (max-width: 1024px) {
   .projects {

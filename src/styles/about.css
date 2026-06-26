@@ -94,17 +94,17 @@ color: white;
     height: 171px;
     padding: 10px;
     border-radius: 20px;
-    background: #4F4E4E;
+    background: #98B2A4;
     border: 1px solid rgb(113, 113, 113);
     box-shadow: 4px 4px 20px 8px #00000040;
 
 }
 .value{
-    color: white;
+    color: #30302f;
     font-size: 16px;
 }
 .value-text{
-    color :#98B2A4;
+    color :#333333;
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
