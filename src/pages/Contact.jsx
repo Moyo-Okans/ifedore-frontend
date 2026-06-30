@@ -170,14 +170,14 @@ function Contact() {
                   <FmdGoodOutlinedIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px', borderRadius: '5px' }}/>
                   <div className="cb-right">
                     <p className="cb-header">Address</p>
-                    <p className="cb-text">LGA Secretariat, Isarun, Ifedore, Ondo State</p>
+                    <p className="cb-text">LGA Secretariat, Igbara Oke, Ondo State</p>
                   </div>
                 </div>
                 <div className="contact-box">
                   <LocalPhoneIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px', borderRadius: '5px' }}/>
                   <div className="cb-right">
                     <p className="cb-header">Office Line</p>
-                    <p className="cb-text">080 0000 0000</p>
+                    <p className="cb-text">0905 094 2799 </p>
                   </div>
                 </div>
                 <div className="contact-box">
@@ -216,14 +216,14 @@ function Contact() {
                 <FmdGoodOutlinedIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px', borderRadius: '5px' }}/>
                 <div className="cb-right">
                   <p className="cb-header">Address</p>
-                  <p className="cb-text">LGA Secretariat, Isarun, Ifedore, Ondo State</p>
+                  <p className="cb-text">LGA Secretariat, Igbara Oke, Ondo State</p>
                 </div>
               </div>
               <div className="contact-box">
                 <LocalPhoneIcon sx={{ color: '#00280e', background: '#C9FFB5', padding: '5px', borderRadius: '5px' }}/>
                 <div className="cb-right">
                   <p className="cb-header">Office Line</p>
-                  <p className="cb-text">080 0000 0000</p>
+                  <p className="cb-text">0905 094 2799</p>
                 </div>
               </div>
               <div className="contact-box">

@@ -28,15 +28,15 @@ function Chairman() {
           <p className='office'>OFFICE OF THE EXECUTIVE CHAIRMAN</p>
           <h2>Hon. Oladipupo Ajibola. A</h2>
           <p className='location'>Ifedore Local Government Area · Ondo State</p>
-          <p className='tenure'>In office since [Month, Year]</p>
+          <p className='tenure'>In office since [February, 2025]</p>
           <div className="chairmanbtn">
             
-            <a href="mailto:chairman@ifedorelga.gov.ng" className="chairbtn">
+            <a href="mailto:info@ifedorelga.ng" className="chairbtn">
               <EmailOutlinedIcon />
               Official Mail
             </a>
 
-            <a href="tel:+2348079999989" className="chairbtn">
+            <a href="tel:+2349050942799" className="chairbtn">
               <LocalPhoneOutlinedIcon />
               Official Phone
             </a>
@@ -169,7 +169,11 @@ function Chairman() {
         </div>
         <div className="sendmessage">
           <p>Have a concern or suggestion for the Executive Chairman's office? We welcome your feedback.</p>
-          <button className="messagebtn">Write to the Chairman</button>
+          <a href="mailto:info@ifedorelga.ng" className="messagebtn">
+            
+            Write to the Chairman
+
+          </a>
         </div>
       </div>
 

@@ -33,7 +33,7 @@ const galleryImages = [
 ];
 
 const attractions = [
-  { name: "Cave Of Ashes (Ijare)",   ward: "Isa-Oworo",   img: attraction1 },
+  { name: "Cave Of Ashes (Ijare/Isarun)",   ward: "Isa-Oworo",   img: attraction1 },
   { name: "Smokin Hills Golf Resort", ward: "Ilara-Mokin", img: attraction2 },
   { name: "Igbara-Oke Hills",         ward: "Igbara-Oke",  img: attraction3 },
   { name: "Premier Holiday Resort",  ward: "Igbara-Oke",  img: attraction4 },
@@ -41,7 +41,7 @@ const attractions = [
 
 const projects = [
   { icon: WaterDropOutlinedIcon, name: "Rural water supply scheme",    loc: "Ipinsa & Oke-Igbo communities", status: "Completed",   statusClass: "status-done" },
-  { icon: BoltOutlinedIcon,      name: "Street lighting installation", loc: "Isarun township roads",          status: "In progress", statusClass: "status-prog" },
+  { icon: BoltOutlinedIcon,      name: "Street lighting installation", loc: "All wards in Ifedore LGA",          status: "In progress", statusClass: "status-prog" },
   { icon: LocalHospitalOutlinedIcon, name: "Health centre renovation", loc: "Ward 4 — Ogbese",               status: "Completed",   statusClass: "status-done" },
   { icon: WaterDropOutlinedIcon, name: "Rural water supply scheme",    loc: "Ipinsa & Oke-Igbo communities", status: "Completed",   statusClass: "status-done" },
 ];

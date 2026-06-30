@@ -50,7 +50,7 @@ function Leadership() {
                     <div className="chairmanpic"><img src={vicechairman} alt="Executive Chairman" /></div>
                 <div className="chairmaninfo">
                   <span>Vice Chairman</span>
-                  <h3>Hon. Oladipupo Ajibola. A</h3>
+                  <h3>Hon. Mrs. Ajibola Ijimakinwa</h3>
                   <p>Supports the Executive Chairman and oversees supervisory councilor activities and ward coordination</p>
                 </div>
               </div>

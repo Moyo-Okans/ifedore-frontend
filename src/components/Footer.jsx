@@ -54,7 +54,7 @@ unwavering commitment to sustainable development across all eleven wards.</p>
                   borderRadius: '5px'
                 }}/>
               <div className="fd-text">
-                <p>080 0000 0000</p>
+                <p>090 5094 2799</p>
                 
               </div>
             </div>

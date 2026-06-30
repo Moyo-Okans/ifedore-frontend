@@ -110,52 +110,52 @@ function About() {
     
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara Oke</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 1</p>
                     <h2 className="ward">W1</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipinsa</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 1</p>
                     <h2 className="ward">W2</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Isarun</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ekamefa</p>
                     <h2 className="ward">W3</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ogbese</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara Mokin 1</p>
                     <h2 className="ward">W4</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Oke-Igbo</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara Mokin 1</p>
                     <h2 className="ward">W5</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Alade</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipogun/Ibule</p>
                     <h2 className="ward">W6</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipogun</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ero/Ibuji</p>
                     <h2 className="ward">W7</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara-Mokin</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Isarun/Erigi</p>
                     <h2 className="ward">W8</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Iju</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 1</p>
                     <h2 className="ward">W9</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Oke-Aro</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 2</p>
                     <h2 className="ward">W10</h2>
                 </div>
             </div>
@@ -172,7 +172,7 @@ function About() {
               </div>
               <div className='fact'>
                   <p className='fact-right'>HQ</p>
-                  <p className='fact-left'>Isarun</p>
+                  <p className='fact-left'>Igbara Oke</p>
               </div>
               <div className='fact'>
                   <p className='fact-right'>Created</p>
@@ -223,7 +223,7 @@ function About() {
               </div>
               <div className='fact'>
                   <p className='fact-right'>HQ</p>
-                  <p className='fact-left'>Isarun</p>
+                  <p className='fact-left'>Igbara-Oke</p>
               </div>
               <div className='fact'>
                   <p className='fact-right'>Created</p>
