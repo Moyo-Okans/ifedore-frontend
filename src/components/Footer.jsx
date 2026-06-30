@@ -63,7 +63,7 @@ unwavering commitment to sustainable development across all eleven wards.</p>
                   borderRadius: '5px'
                 }}/>
               <div className="fd-text">
-                <p>LGA Secretariat, Isarun, Ifedore, Ondo State</p>
+                <p>LGA Secretariat, Igbara Oke, Ondo State</p>
                 
               </div>
             </div>

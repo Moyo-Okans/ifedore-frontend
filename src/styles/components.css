@@ -32,6 +32,7 @@
 .logo img {
     height: 70px;
     width: 70px;
+    border-radius: 50%;
 }
 
 .logo-text {
@@ -95,12 +96,13 @@
 .footer{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
     justify-content: space-between;
     padding: 30px 33px;
     background-color: #00280E;
     color: white;
     font-size: 14px;
+    
     /* height: 100px; */
 }
 .footer-top{
@@ -109,7 +111,7 @@
 .footer-right{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
 }
 .footer-deets{
     display: flex;
@@ -130,8 +132,10 @@
     gap: 15px;
 }
 .quick-links h3{
-    width: 100%;
+    width: 150px;
+
 }
+
 .footer-logo {
     display: flex;
     gap: 15px;
@@ -162,9 +166,9 @@
     display: flex;
     justify-content: space-between;
 }
-.footer a{
+.footer-bottom a{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 .footer-link{

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router';
 import '../styles/components.css';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo.JPG';
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);

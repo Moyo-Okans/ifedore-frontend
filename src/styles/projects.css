@@ -144,14 +144,15 @@
 .gallerymain h2{
     color: #FCE59B;
   font-size: 25px;
+   margin-inline: 30px;
 }
 .gallerymain p{
     color:#9D9D9C ;
-    font-size: 15px;
+    font-size: 15px; margin-inline: 30px;
 }
 
 .gallerymain{
-    margin-inline: 30px;
+    /* margin-inline: 30px; */
     display: flex;
     align-items: center;
     flex-direction: column;

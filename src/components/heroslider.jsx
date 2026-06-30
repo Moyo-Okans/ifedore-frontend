@@ -33,8 +33,8 @@ const slides = [
   },
   {
     tag: "Achievement",
-    title: "Water supply scheme completed — 4,200 residents benefit",
-    desc: "The rural water supply project in Ipinsa and Oke-Igbo has been commissioned, delivering clean water to over 4,200 residents.",
+    title: "Rural Water supply scheme completed",
+    desc: "The rural water supply project in Ipinsa and Oke-Igbo has been commissioned, delivering clean water to residents.",
     img: Youth,
     actions: ["View Projects", "Read More"],
   },

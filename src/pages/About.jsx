@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Timeline from '../components/Timeline';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo.JPG';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';

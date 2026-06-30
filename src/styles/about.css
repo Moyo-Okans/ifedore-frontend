@@ -12,10 +12,12 @@
 .top-right{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .top-right img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
 }
 .top-right h2{
     color: white;
