@@ -18,6 +18,15 @@ import gallery17 from '../assets/gallery017.jpg';
 import gallery18 from '../assets/gallery018.jpg';
 import gallery19 from '../assets/gallery019.jpg';
 import gallery20 from '../assets/gallery020.jpg';
+import gallery21 from '../assets/galleryy.webp';
+import gallery22 from '../assets/galleryy0.webp';
+import gallery23 from '../assets/galleryy1.webp';
+import gallery24 from '../assets/galleryy2.webp';
+import gallery25 from '../assets/galleryyy.webp';
+import gallery26 from '../assets/galleryy3.webp';
+import gallery27 from '../assets/galleryy4.webp';
+import gallery28 from '../assets/galleryy5.webp';
+import gallery29 from '../assets/galleryy6.webp';
 import styles from "../styles/Gallery.module.css";   // ← CSS Module import
 
 const images = [
@@ -110,6 +119,15 @@ const images = [
   { id: 16, src: gallery18, alt: "Gallery image 18", caption: "Leadership Meeting", category: "Leadership", span: "landscape" },
   { id: 17, src: gallery19, alt: "Gallery image 19", caption: "Sectariat Building", category: "Community", span: "landscape" },
   { id: 18, src: gallery20, alt: "Gallery image 20", caption: "Sectariat Building", category: "Community", span: "landscape" },
+  { id: 19, src: gallery21, alt: "Gallery image 21", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 20, src: gallery22, alt: "Gallery image 22", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 21, src: gallery23, alt: "Gallery image 23", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 22, src: gallery24, alt: "Gallery image 24", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 23, src: gallery25, alt: "Gallery image 25", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 24, src: gallery26, alt: "Gallery image 26", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 25, src: gallery27, alt: "Gallery image 27", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 26, src: gallery28, alt: "Gallery image 28", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
+  { id: 27, src: gallery29, alt: "Gallery image 29", caption: "Summer Tech Clinic", category: "Community", span: "landscape" },
 ];
 
 const CATEGORIES = ["All", "Outreach", "Healthcare", "Community", "Leadership"];
