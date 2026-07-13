@@ -226,6 +226,10 @@ padding-inline: 30px;}
   transform: translateY(-2px);
 
 }
+.news-loading{
+  color: white;
+  text-align: center;
+}
 .news-thumb {
   height: 170px;
   display: flex; align-items: center; justify-content: center;

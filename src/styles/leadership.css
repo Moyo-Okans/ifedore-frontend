@@ -59,12 +59,12 @@
 }
 
 .chairman,
-.vice {
+.vice, .secretary {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  border: 1px solid #4F4E4E;
+  border: 1px solid #484848;
   border-radius: 20px;
   padding: 30px;
   margin-top: 20px;
@@ -83,7 +83,12 @@
   border-radius: 20px;
   object-fit: cover;
 }
-
+.secretary img{
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+}
 .chairmaninfo {
   color: #ffffff;
   min-width: 0;
@@ -109,7 +114,7 @@
 /* ===========================
    COUNCIL LEADERS SECTION
 =========================== */
-.council {
+.council, .political-leaders {
   margin-inline: 30px;
   display: flex;
   flex-direction: column;
@@ -118,7 +123,7 @@
   padding: 20px;
 }
 
-.council h2 {
+.council h2, .political-leaders h2 {
   color: #FCE59B;
   font-size: clamp(22px, 3vw, 24px);
 }
@@ -292,9 +297,12 @@
   .leadership-topbar {
     padding: 28px 20px;
   }
-
+  .leader{
+    width: 100%;
+  }
   .executive,
   .council,
+  .political-leaders,
   .admindepartments {
     margin-inline: 16px;
     padding: 16px;
@@ -307,14 +315,14 @@
   }
 
   .chairman,
-  .vice {
-    max-width: 100%;
-    min-width: unset;
+  .vice, .secretary {
+    width: 100%;
+    padding: 20px;
   }
 
-  .leader {
+  /* .leader {
     width: calc(50% - 8px);
-  }
+  } */
 
   .department {
     width: 100%;

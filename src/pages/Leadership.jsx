@@ -12,6 +12,22 @@ import leader6 from '../assets/frame144.webp'
 import leader7 from '../assets/frame145.webp'
 import leader8 from '../assets/frame146.webp'
 import leader9 from '../assets/frame147.webp'
+import HeadOfLga from '../assets/Head-LGA.webp'
+
+
+import Secretary from '../assets/Secretary.jpg'
+import Yakubu from '../assets/Yakubu.webp'
+import Aliju from '../assets/Alju.webp'
+import IJWard1 from '../assets/IJ-ward1.webp'
+import IJWard2 from '../assets/IJ-ward2.webp'
+import IOWard1 from '../assets/IO-ward1.webp'
+import IOWard2 from '../assets/IO-ward2.webp'
+import Ipagun from '../assets/Ipagun.webp'
+import Obagbe from '../assets/Obagbe.webp'
+import HonWasiu from '../assets/HonWasiu.JPG'
+
+import Advisor from '../assets/Advisor.webp'
+
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import PrecisionManufacturingOutlinedIcon from '@mui/icons-material/PrecisionManufacturingOutlined';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
@@ -54,11 +70,95 @@ function Leadership() {
                   <p>Supports the Executive Chairman and oversees supervisory councilor activities and ward coordination</p>
                 </div>
               </div>
+              <div className="secretary">
+                    <div className="chairmanpic"><img src={Secretary} alt="Executive Chairman" /></div>
+                <div className="chairmaninfo">
+                  <span>Secretary</span>
+                  <h3>Hon. Awoseye .O. Collins, Esq</h3>
+                  <p>Supports the Executive Chairman and oversees supervisory councilor activities and ward coordination</p>
+                </div>
+              </div>
             </div>
             
         </div>
         <div className="council">
-          <h2>Council Leaders</h2>
+          <h2>Political Leaders</h2>
+          <div className="leaders">
+            <div className="leader">
+              <div className="picandname">
+                  <img src={IJWard1} alt="" />
+                  <h3>Hon. Fashua Orisumibare</h3>
+              </div>
+              <span className="post">Councillor representing Ijare ward 1</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={IJWard2} alt="" />
+                  <h3>Hon. Akingbola Adedapo</h3>
+              </div>
+              <span className="post">Majority Leader Councillor representing Ijare ward 2</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Aliju} alt="" />
+                  <h3>Hon. Alju Jelil</h3>
+              </div>
+              <span className="post">Councillor representing Isarun/Erigi ward</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Yakubu} alt="" />
+                  <h3>Hon. Yakubu Gbadamosi</h3>
+              </div>
+              <span className="post">Deputy Majority Leader, Councillor representing Ilara Ward 2</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={HonWasiu} alt="" />
+                  <h3>Hon. Wasiu Adekunle Oluyi </h3>
+              </div>
+              <span className="post">Leader Ifedore Local Government Legislature. Ilara-Mokin Ward 1</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src='' alt="" />
+                  <h3>Hon. Yusuf Tunde </h3>
+              </div>
+              <span className="post">Councillor representing.....</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Ipagun} alt="" />
+                  <h3>Hon. Ofobutu Emmanuel</h3>
+              </div>
+              <span className="post">Chief Whip Councillor representing Ipagun/Ibule Ward</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Obagbe} alt="" />
+                  <h3>Hon. Adebayo Mayowa</h3>
+              </div>
+              <span className="post">Councillor representing Oba Ikota Obagbe Ward</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={IOWard1} alt="" />
+                  <h3>Hon. Igbiloba Kolawole</h3>
+              </div>
+              <span className="post">Councillor for representing Igbara-Oke Ward 1</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={IOWard2} alt="" />
+                  <h3>Hon. Jide Omolanwa</h3>
+              </div>
+              <span className="post">Councillor representing Igbara-Oke Ward 2</span>
+            </div>
+
+          </div>
+        </div>
+        <div className="council">
+          <h2>Non-Political Leaders</h2>
           <div className="leaders">
             <div className="leader">
               <div className="picandname">
@@ -69,6 +169,50 @@ function Leadership() {
             </div>
             <div className="leader">
               <div className="picandname">
+                  <img src={leader3} alt="" />
+                  <h3>Mr. Ayodeji Olusanni Blackson</h3>
+              </div>
+              <span className="post">Director Of Financial Services</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src='' alt="" />
+                  <h3>Mrs. Adebisi Morayo</h3>
+              </div>
+              <span className="post">Director Of Agric and Natural resources</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src='' alt="" />
+                  <h3>Mrs. Olaniyi Margaret Adetokunbo</h3>
+              </div>
+              <span className="post">Director Of Environmental Services</span>
+            </div>
+  
+            <div className="leader">
+              <div className="picandname">
+                  <img src={leader4} alt="" />
+                  <h3>Mrs. Osuntuyi Elizabeth Olayinka</h3>
+              </div>
+              <span className="post">Director Of Budget Planning, Research and Statistics</span>
+            </div>
+            
+            <div className="leader">
+              <div className="picandname">
+                  <img src={leader5} alt="" />
+                  <h3>Engr. Mrs. Aladekugbe Catherine </h3>
+              </div>
+              <span className="post">Director Of Works and Transport</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={leader6} alt="" />
+                  <h3>Barrister Ayemo Akinwale</h3>
+              </div>
+              <span className="post">Director Of Legal services</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
                   <img src={leader2} alt="" />
                   <h3>Mr. Kazeem Bashiru Lekan</h3>
               </div>
@@ -76,47 +220,19 @@ function Leadership() {
             </div>
             <div className="leader">
               <div className="picandname">
-                  <img src={leader3} alt="" />
-                  <h3>Mr. Olusanmi Ayodeji Blacksore</h3>
-              </div>
-              <span className="post">Director Of Financial Services</span>
-            </div>
-            <div className="leader">
-              <div className="picandname">
-                  <img src={leader4} alt="" />
-                  <h3>Mrs. Osuntuyi</h3>
-              </div>
-              <span className="post">Director Of Budget Planning and Related Services</span>
-            </div>
-            <div className="leader">
-              <div className="picandname">
-                  <img src={leader5} alt="" />
-                  <h3>Engr. Mrs. Catherine Aladekungbe</h3>
-              </div>
-              <span className="post">Director Of Works</span>
-            </div>
-            <div className="leader">
-              <div className="picandname">
-                  <img src={leader6} alt="" />
-                  <h3>Mr. Akinwale Ayemo</h3>
-              </div>
-              <span className="post">Director Of Legal</span>
-            </div>
-            <div className="leader">
-              <div className="picandname">
                   <img src={leader7} alt="" />
-                  <h3>Mrs. Adeyemi Adejoke</h3>
+                  <h3>Mrs. Adeyemi Henrietta Adejoke</h3>
               </div>
-              <span className="post">Director Of Community</span>
+              <span className="post">Director Of Social Development information, Education, Youth and Sport</span>
             </div>
             <div className="leader">
               <div className="picandname">
                   <img src={leader8} alt="" />
-                  <h3>Mr. John Doe</h3>
+                  <h3>Mr. Omoniyi Luqman</h3>
               </div>
-              <span className="post">Ifedore Accountant</span>
+              <span className="post">Local Government Accountant</span>
             </div>
-            <div className="leader">
+            {/* <div className="leader">
               <div className="picandname">
                   <img src={leader9} alt="" />
                   <h3>RT. Hon. Wasiu Adekunle Oluyi</h3>
@@ -136,7 +252,7 @@ function Leadership() {
                   <h3></h3>
               </div>
               <span className="post"></span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="admindepartments">
@@ -150,10 +266,10 @@ function Leadership() {
                 <div className="iconachive">
                     <ApartmentOutlinedIcon />
                 </div>
-                <h3>General Services and Administration</h3>
+                <h3>General Services and Administration Departmrnt</h3>
               </div>
               <div className="deptbody">
-                <p>Handles day-to-day general administration, human resource management, staff recruitment, training, and record-keeping. It serves as the backbone of the LGA’s workforce coordination and ensures smooth internal operations.</p>
+                <p>The General Services and Administration Department oversees the day-to-day administration of the local government, including personnel management, recruitment, staff welfare, training, promotions, and disciplinary matters. It also coordinates statutory meetings, maintains official records, and ensures administrative processes run efficiently across the council.</p>
               </div>
              
             </div>
@@ -161,72 +277,12 @@ function Leadership() {
               <div className="deptheader">
                
                 <div className="iconachive">
-                    <PrecisionManufacturingOutlinedIcon />
-                </div>
-                <h3>Works & Infrastructure</h3>
-              </div>
-              <div className="deptbody">
-                <p>This department is responsible for the planning, construction, rehabilitation, and maintenance of roads, bridges, public buildings, and other critical infrastructure. It plays a vital role in improving connectivity across the 10 wards, ensuring durable roads for transportation, and overseeing general public works projects that support economic growth and daily mobility in the LGA.</p>
-              </div>
-              
-            </div><div className="department">
-              <div className="deptheader">
-               
-                <div className="iconachive">
-                    <SchoolRoundedIcon />
-                </div>
-                <h3>Education</h3>
-              </div>
-              <div className="deptbody">
-                <p>Focused on primary and basic education, this department manages local schools, oversees teacher welfare, implements government education policies, and coordinates infrastructure improvements in learning environments. It works to enhance access to quality education, support student enrollment, and partner with state and federal agencies for programs that benefit children and youth in Ifedore.</p>
-              </div>
-              
-            </div><div className="department">
-              <div className="deptheader">
-               
-                <div className="iconachive">
-                    <MonitorHeartOutlinedIcon />
-                </div>
-                <h3>Health</h3>
-              </div>
-              <div className="deptbody">
-                <p>The Health Department manages primary healthcare centers, organizes medical outreaches, immunization programs, maternal and child health services, and sanitation initiatives. It is instrumental in delivering accessible healthcare to residents, responding to public health challenges, and promoting preventive care across communities.</p>
-              </div>
-              
-            </div><div className="department">
-              <div className="deptheader">
-               
-                <div className="iconachive">
-                    <AgricultureOutlinedIcon />
-                </div>
-                <h3>Agriculture & Natural Resources</h3>
-              </div>
-              <div className="deptbody">
-                <p>his department supports farmers through extension services, provision of improved seedlings, livestock support, and rural development programs. It promotes food security, modern farming techniques, agro-processing, and sustainable management of natural resources to boost agricultural productivity in the area.</p>
-              </div>
-              
-            </div><div className="department">
-              <div className="deptheader">
-               
-                <div className="iconachive">
                     <AttachMoneyOutlinedIcon />
                 </div>
-                <h3>Finance & Treasury</h3>
+                <h3>Finance & Supply</h3>
               </div>
               <div className="deptbody">
-               <p>Responsible for revenue generation, budgeting, financial accounting, and expenditure control. This department ensures transparent management of LGA funds, timely payment of salaries, and proper allocation of resources for developmental projects.</p>
-              </div>
-              
-            </div><div className="department">
-              <div className="deptheader">
-               
-                <div className="iconachive">
-                    <RouteOutlinedIcon />
-                </div>
-                <h3>Planning & Budget</h3>
-              </div>
-              <div className="deptbody">
-                <p>Coordinates long-term development planning, project prioritization, budgeting processes, and monitoring of government programs. It aligns local initiatives with state and national development goals for sustainable growth in Ifedore.</p>
+               <p>The Finance and Supply Department manages the local government's finances by preparing budgets, collecting revenue, overseeing public funds, and producing financial reports in line with approved regulations. It is also responsible for procurement, treasury operations, and the proper management of government stores and supplies.</p>
               </div>
               
             </div>
@@ -234,12 +290,25 @@ function Leadership() {
               <div className="deptheader">
                
                 <div className="iconachive">
-                    <PeopleOutlinedIcon />
+                    <PrecisionManufacturingOutlinedIcon />
                 </div>
-                <h3>Community Development / Social Services</h3>
+                <h3>Works & Transport Department</h3>
               </div>
               <div className="deptbody">
-                <p>Focuses on youth and women empowerment, social welfare programs, poverty alleviation, and community engagement initiatives. It promotes inclusive development through skill acquisition, cooperative societies, and support for vulnerable groups.</p>
+                <p>The Works and Transport Department plans, constructs, and maintains public infrastructure such as roads, drainage systems, bridges, and government buildings across the local government area. It also prepares engineering designs, project estimates, and supervises construction works to ensure quality and durability.</p>
+              </div>
+              
+            </div>
+            <div className="department">
+              <div className="deptheader">
+               
+                <div className="iconachive">
+                    <PrecisionManufacturingOutlinedIcon />
+                </div>
+                <h3>Legal services Department</h3>
+              </div>
+              <div className="deptbody">
+                <p>The Legal Services Department provides legal advice to the Chairman and the Local Government Council, ensuring that policies, contracts, and official actions comply with the law. It also represents the local government in court, handles legal disputes, and reviews agreements and other legal documents.</p>
               </div>
               
             </div>
@@ -249,13 +318,27 @@ function Leadership() {
                 <div className="iconachive">
                     <CleaningServicesOutlinedIcon />
                 </div>
-                <h3>Environmental / Sanitation:</h3>
+                <h3>Environmental Services Department</h3>
               </div>
               <div className="deptbody">
-                <p>Deals with waste management, environmental protection, public hygiene, and pollution control. This department enforces sanitation laws, organizes clean-up exercises, and works to maintain a clean and healthy living environment for residents.</p>
+                <p>The Environmental Services Department promotes a clean and healthy environment through waste management, pollution control, environmental sanitation, and enforcement of public health regulations. It also conducts health inspections, manages pest control programs, and works to prevent environmental hazards within the community.</p>
               </div>
               
             </div>
+            <div className="department">
+              <div className="deptheader">
+               
+                <div className="iconachive">
+                    <CleaningServicesOutlinedIcon />
+                </div>
+                <h3>Budget Planning Research & Statistics Department</h3>
+              </div>
+              <div className="deptbody">
+                <p>The Budget, Planning, Research and Statistics Department prepares and monitors the local government's budget while supporting planning and policy decisions through research and data analysis. It also manages the council's computer systems, maintains statistical records, and provides reliable data for effective governance and development planning.</p>
+              </div>
+              
+            </div>
+            
           </div>
 
         </div>
