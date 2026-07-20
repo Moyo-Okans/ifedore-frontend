@@ -13,8 +13,10 @@ import leader7 from '../assets/frame145.webp'
 import leader8 from '../assets/frame146.webp'
 import leader9 from '../assets/frame147.webp'
 import HeadOfLga from '../assets/Head-LGA.webp'
-
-
+import Agric from '../assets/Agric.jpg';
+import Environment from '../assets/environment.jpg'
+import Auditor from '../assets/auditor.jpg'
+import PHC from '../assets/phc.jpg'
 import Secretary from '../assets/Secretary.jpg'
 import Yakubu from '../assets/Yakubu.webp'
 import Aliju from '../assets/Alju.webp'
@@ -25,9 +27,14 @@ import IOWard2 from '../assets/IO-ward2.webp'
 import Ipagun from '../assets/Ipagun.webp'
 import Obagbe from '../assets/Obagbe.webp'
 import HonWasiu from '../assets/HonWasiu.JPG'
-
+import Yusuf from '../assets/Yusuf.jpg'
+import Silifat from '../assets/silifat.jpg'
+import Samuel from '../assets/samuel.jpg'
+import Gabriel from '../assets/gabriel.jpg'
+import Israel from '../assets/isrel.jpg'
+import Jide from '../assets/jide.jpg'
 import Advisor from '../assets/Advisor.webp'
-
+import Fayose from '../assets/fayose.jpg'
 import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
 import PrecisionManufacturingOutlinedIcon from '@mui/icons-material/PrecisionManufacturingOutlined';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
@@ -75,7 +82,7 @@ function Leadership() {
                 <div className="chairmaninfo">
                   <span>Secretary</span>
                   <h3>Hon. Awoseye .O. Collins, Esq</h3>
-                  <p>Supports the Executive Chairman and oversees supervisory councilor activities and ward coordination</p>
+                  <p>Coordinates the day-to-day administration of the Local Government Council and oversees the implementation of council policies and decisions.</p>
                 </div>
               </div>
             </div>
@@ -121,10 +128,10 @@ function Leadership() {
             </div>
             <div className="leader">
               <div className="picandname">
-                  <img src='' alt="" />
+                  <img src={Yusuf} alt="" />
                   <h3>Hon. Yusuf Tunde </h3>
               </div>
-              <span className="post">Councillor representing.....</span>
+              <span className="post">Deputy Leader Councillor representing Ero/Ibuji Mariwo Ward</span>
             </div>
             <div className="leader">
               <div className="picandname">
@@ -157,6 +164,62 @@ function Leadership() {
 
           </div>
         </div>
+         <div className="council">
+          <h2>Supervisors and Advisors</h2>
+          <div className="leaders">
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Gabriel} alt="" />
+                  <h3>Hon. Olusanya Gabriel</h3>
+              </div>
+              <span className="post">Statutory Adviser for People with Disbility, Humanitarian Service and Tradition Institution</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Fayose} alt="" />
+                  <h3>Hon. Fayose Joshua</h3>
+              </div>
+              <span className="post">Statutory Adviser for Security</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Israel} alt="" />
+                  <h3>Hon. Agboola Omotuyi Israel</h3>
+              </div>
+              <span className="post">Supervisor for Works</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Samuel} alt="" />
+                  <h3>Hon. Owoeye Sunday Samuel</h3>
+              </div>
+              <span className="post">Supervisor for Agriculture and Natural Resources</span>
+            </div>
+  
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Jide} alt="" />
+                  <h3>Hon. Makoyawo Oluwaseyi Olajide</h3>
+              </div>
+              <span className="post">Supervisor for Health and Environment</span>
+            </div>
+            
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Silifat} alt="" />
+                  <h3>Hon. Sobowale Silifat </h3>
+              </div>
+              <span className="post">Supervisor for Education</span>
+            </div>
+            <div className="leader">
+            <div className="picandname">
+                  <img src={Advisor} alt="" />
+                  <h3>Hon. Ajape Michael Oluwaseun</h3>
+              </div>
+              <span className="post">Advisor on Youth Development and Community Service</span>
+            </div>
+          </div>
+        </div>
         <div className="council">
           <h2>Non-Political Leaders</h2>
           <div className="leaders">
@@ -176,14 +239,21 @@ function Leadership() {
             </div>
             <div className="leader">
               <div className="picandname">
-                  <img src='' alt="" />
+                  <img src={Auditor} alt="" />
+                  <h3>Oniye Oluremi Olajumoke</h3>
+              </div>
+              <span className="post">Internal Auditor</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
+                  <img src={Agric} alt="" />
                   <h3>Mrs. Adebisi Morayo</h3>
               </div>
               <span className="post">Director Of Agric and Natural resources</span>
             </div>
             <div className="leader">
               <div className="picandname">
-                  <img src='' alt="" />
+                  <img src={Environment} alt="" />
                   <h3>Mrs. Olaniyi Margaret Adetokunbo</h3>
               </div>
               <span className="post">Director Of Environmental Services</span>
@@ -232,29 +302,16 @@ function Leadership() {
               </div>
               <span className="post">Local Government Accountant</span>
             </div>
-            {/* <div className="leader">
-              <div className="picandname">
-                  <img src={leader9} alt="" />
-                  <h3>RT. Hon. Wasiu Adekunle Oluyi</h3>
-              </div>
-              <span className="post">Ifedore legislative Leader</span>
-            </div>
             <div className="leader">
               <div className="picandname">
-                  <img src="" alt="" />
-                  <h3></h3>
+                  <img src={PHC} alt="" />
+                  <h3>Dr. Adedayo Fayanju</h3>
               </div>
-              <span className="post"></span>
+              <span className="post">Director of PHC</span>
             </div>
-            <div className="leader">
-              <div className="picandname">
-                  <img src="" alt="" />
-                  <h3></h3>
-              </div>
-              <span className="post"></span>
-            </div> */}
           </div>
         </div>
+
         <div className="admindepartments">
           
           <h2>Administrative Departments</h2>

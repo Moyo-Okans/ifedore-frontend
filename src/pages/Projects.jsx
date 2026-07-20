@@ -5,6 +5,7 @@ import Gallery from '../components/Gallery'
 import AddRoadOutlinedIcon from '@mui/icons-material/AddRoadOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import WaterDropOutlinedIcon from '@mui/icons-material/WaterDropOutlined';
+import TimeToLeaveIcon from '@mui/icons-material/TimeToLeave';
 import '../styles/projects.css';
 import gallerymain from '../assets/gallerymain.webp'
 
@@ -26,7 +27,7 @@ function Projects() {
               <div className="projectmain">
                 <div className="statsbar">
                   <div className="statscard">
-                      <h2>8</h2>
+                      <h2>9</h2>
                       <span>Completed</span>
                   </div>
                   <div className="statscard">
@@ -80,6 +81,21 @@ function Projects() {
                 <div className="txt0">
                   <span>Rural water supply — Ipinsa & Oke-Igbo</span>
                   <p>Rural water supply — Ipinsa & Oke-Igbo</p>
+                  <div className="progressbar">
+                    <div className="progressline">
+
+                    </div>
+                  </div>
+                </div>
+                <span className="status">Completed</span>
+            </div>
+            <div className="a1">
+                <div className="iconachive">
+                    <TimeToLeaveIcon/>
+                </div>
+                <div className="txt0">
+                  <span>Royal Vehicle Distribution</span>
+                  <p>Distribution of cars to traditional rulers</p>
                   <div className="progressbar">
                     <div className="progressline">
 
