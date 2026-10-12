@@ -93,6 +93,13 @@ function Leadership() {
           <div className="leaders">
             <div className="leader">
               <div className="picandname">
+                  <img src={HonWasiu} alt="" />
+                  <h3>Hon. Wasiu Adekunle Oluyi </h3>
+              </div>
+              <span className="post">Leader Ifedore Local Government Legislature. Ilara-Mokin Ward 1</span>
+            </div>
+            <div className="leader">
+              <div className="picandname">
                   <img src={IJWard1} alt="" />
                   <h3>Hon. Fashua Orisumibare</h3>
               </div>
@@ -119,13 +126,7 @@ function Leadership() {
               </div>
               <span className="post">Deputy Majority Leader, Councillor representing Ilara Ward 2</span>
             </div>
-            <div className="leader">
-              <div className="picandname">
-                  <img src={HonWasiu} alt="" />
-                  <h3>Hon. Wasiu Adekunle Oluyi </h3>
-              </div>
-              <span className="post">Leader Ifedore Local Government Legislature. Ilara-Mokin Ward 1</span>
-            </div>
+
             <div className="leader">
               <div className="picandname">
                   <img src={Yusuf} alt="" />
@@ -145,7 +146,7 @@ function Leadership() {
                   <img src={Obagbe} alt="" />
                   <h3>Hon. Adebayo Mayowa</h3>
               </div>
-              <span className="post">Councillor representing Oba Ikota Obagbe Ward</span>
+              <span className="post">Councillor representing Ekamefa Ward</span>
             </div>
             <div className="leader">
               <div className="picandname">
@@ -233,9 +234,9 @@ function Leadership() {
             <div className="leader">
               <div className="picandname">
                   <img src={leader3} alt="" />
-                  <h3>Mr. Ayodeji Olusanni Blackson</h3>
+                  <h3>Mr. Ayodeji Oluwasanni Blackson</h3>
               </div>
-              <span className="post">Director Of Financial Services</span>
+              <span className="post">Director Of Finance and Supply</span>
             </div>
             <div className="leader">
               <div className="picandname">

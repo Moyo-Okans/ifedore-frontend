@@ -110,52 +110,52 @@ function About() {
     
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 1</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ero Ibuji/Mariwo</p>
                     <h2 className="ward">W1</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 1</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 1</p>
                     <h2 className="ward">W2</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ekamefa</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 2</p>
                     <h2 className="ward">W3</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara Mokin 1</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 1</p>
                     <h2 className="ward">W4</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara Mokin 1</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ijare 2</p>
                     <h2 className="ward">W5</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipogun/Ibule</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Eka Mefa</p>
                     <h2 className="ward">W6</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ero/Ibuji</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara-Mokin 1</p>
                     <h2 className="ward">W7</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Isarun/Erigi</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ilara-Mokin 2</p>
                     <h2 className="ward">W8</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 1</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Ipogun/Ibule</p>
                     <h2 className="ward">W9</h2>
                 </div>
                 <div className="community">
                     
-                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Igbara-Oke 2</p>
+                    <p><LocationOnOutlinedIcon sx={{ color: '#34970E'}}/> Isarun/Erigi</p>
                     <h2 className="ward">W10</h2>
                 </div>
             </div>

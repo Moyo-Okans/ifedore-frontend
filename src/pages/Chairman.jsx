@@ -49,8 +49,28 @@ function Chairman() {
       <div className="left">
         <div className="biography">
           <h2>Biography</h2>
-          <p>Hon. Oladipupo Ajibola. A is the Executive Chairman of Ifedore Local Government Area, elected on a platform of grassroots development and transparent governance. He brings extensive experience in public administration and community leadership to the office.</p>
-          <p>Born and raised in Ifedore, he pursued his education at [Institution] and has dedicated his career to the development of his people. Prior to his election as Executive Chairman, he served in [previous roles] and championed several development initiatives across the local government.</p>
+          <p>Hon. Oladipupo Ajibola was born about 55 years ago in Ifedore and rose through education, private enterprise and party politics to the leadership of his local government. His career shows how dedication and perseverance can be turned into service to the people.</p>
+          <p>
+            He began his education at St. Peter's Primary School, Ijare, between 1977 and 1983. He completed his secondary education at Anglican Grammar School, Ijare, in 1989. He later earned a Higher National Diploma (HND) from the Federal Polytechnic, Ado-Ekiti, in 1998 and served his country as a youth corps member from 1999 to 2000. In 2001 he gained admission to the University of Ado-Ekiti for a Master of Business Administration (MBA), which he completed in 2003.
+          </p>
+          <p>
+            His professional career began in 1998 at Standard Commodities and Handling Services. Through diligence and consistent performance, he rose from Warehouse Officer to Director of the company. The discipline and enterprise he built over those years later became the foundation of his public service.
+          </p>
+          <p>
+            He joined active politics in 2013 as one of the pioneer members of the All Progressives Congress (APC) in Ifedore Local Government Area. In 2014, he contested the party's primary for the Ifedore State Constituency seat. He lost, but he supported the party's candidate in the general election. In 2015 and 2016, he was among the Aketi supporters in the party primary and governorship election. These experiences showed his loyalty to his party and his commitment to its collective success.
+          </p>
+          <p>
+            In April 2017, he was appointed Caretaker Chairman of Ifedore Local Government Area. In that role, he championed development initiatives aimed at improving the welfare of residents. The role also gave him a deeper understanding of local governance.
+
+His political commitment continued with his service as Secretary of the Grassroot Democracy Defenders, a group founded in September 2021 to support the governorship ambition of His Excellency, Dr Lucky Orimisan Aiyedatiwa.
+          </p>
+          <p>
+            He is now the elected Executive Chairman of Ifedore Local Government Area, elected on a platform of grassroots development and transparent governance. He brings his private-sector experience and administrative knowledge to the task of promoting the social and economic well-being of the people. His leadership rests on dedication, perseverance, diligence, transparency and the fear of God. These values, formed in private practice, now guide his public administration.
+
+Outside public life, Hon. Ajibola is a married man and a father.
+
+In recognition of his contributions to local government administration and his commitment to grassroots development, Southwest Heralds Magazine celebrates Hon. Oladipupo Ajibola as a public servant dedicated to community advancement and responsible governance.
+          </p>
         </div>
         <div className="hide">
             <div className="pic">
