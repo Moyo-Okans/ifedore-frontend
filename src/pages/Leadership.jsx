@@ -115,7 +115,7 @@ function Leadership() {
             <div className="leader">
               <div className="picandname">
                   <img src={Aliju} alt="" />
-                  <h3>Hon. Alju Jelil</h3>
+                  <h3>Hon. Aliu Jelil</h3>
               </div>
               <span className="post">Councillor representing Isarun/Erigi ward</span>
             </div>
@@ -236,7 +236,7 @@ function Leadership() {
                   <img src={leader3} alt="" />
                   <h3>Mr. Ayodeji Oluwasanni Blackson</h3>
               </div>
-              <span className="post">Director Of Finance and Supply</span>
+              <span className="post">Head of Local Government Administration</span>
             </div>
             <div className="leader">
               <div className="picandname">

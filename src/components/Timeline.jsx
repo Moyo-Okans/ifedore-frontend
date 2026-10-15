@@ -9,7 +9,7 @@ const events = [
   {
     era: 'Pre-colonial era',
     title: 'Settlement and traditional governance',
-    description: 'Communities now comprising Ifedore LGA were governed under traditional institutions, with Igbara-Oke, Isarun, and Ipinsa among the oldest established settlements in the region.',
+    description: 'Communities now comprising Ifedore LGA were governed under traditional institutions, with Igbara-Oke, Isarun, and Ipogun among the oldest established settlements in the region.',
     icon: <EventIcon sx={{ color: "#D4AF37" }}/>
   },
   {

@@ -22,7 +22,7 @@ function About() {
           <img src={Logo} alt="" />
           <div className="tr-text">
             <h2>Ifedore Local Government Area</h2>
-            <p>Ondo State · South-West Nigeria Headquarters: Isarun · Established: 1991</p>
+            <p>Ondo State · South-West Nigeria Headquarters: Igbara-Oke · Established: 1991</p>
           </div>
         </div>
         <div className="top-left">
@@ -48,8 +48,8 @@ function About() {
         <div className="about-left">
           <div className="about-text">
             <h2>About Ifedore LGA</h2>
-            <p>Ifedore Local Government Area is one of the eighteen local government areas of Ondo State, situated in the heart of the Ondo South Senatorial District. The LGA shares boundaries with Akure South, Akure North, Idanre, and Ile-Oluji/Okeigbo LGAs, and is home to a rich tapestry of communities known for agriculture, craftsmanship, and cultural heritage.</p>
-            <p>The local government serves as the closest tier of government to the people, providing essential services including primary healthcare, basic education, road maintenance, sanitation, and community development. Its administrative headquarters is located in Isarun.</p>
+            <p>Ifedore Local Government Area is one of the eighteen local government areas of Ondo State, situated in the heart of the Ondo Central. The LGA shares boundaries with Akure South, Akure North, Idanre, and Ile-Oluji/Okeigbo LGAs, and is home to a rich tapestry of communities known for agriculture, craftsmanship, and cultural heritage.</p>
+            <p>The local government serves as the closest tier of government to the people, providing essential services including primary healthcare, basic education, road maintenance, sanitation, and community development. Its administrative headquarters is located in Igbara-Oke.</p>
           </div>
           <div className="history-text">
             <h2>

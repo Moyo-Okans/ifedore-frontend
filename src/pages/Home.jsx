@@ -33,7 +33,7 @@ const galleryImages = [
 ];
 
 const attractions = [
-  { name: "Cave Of Ashes (Ijare/Isarun)",   ward: "Isa-Oworo",   img: attraction1 },
+  { name: "Cave Of Ashes (Ijare)",   ward: "Isa-Oworo",   img: attraction1 },
   { name: "Smokin Hills Golf Resort", ward: "Ilara-Mokin", img: attraction2 },
   { name: "Igbara-Oke Hills",         ward: "Igbara-Oke",  img: attraction3 },
   { name: "Premier Holiday Resort",  ward: "Igbara-Oke",  img: attraction4 },

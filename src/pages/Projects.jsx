@@ -83,8 +83,8 @@ function Projects() {
                     <WaterDropOutlinedIcon/>
                 </div>
                 <div className="txt0">
-                  <span>Rural water supply — Ipinsa</span>
-                  <p>Rural water supply — Ipinsa</p>
+                  <span>Solar-powered borehole - Ijare & Igbara-Oke</span>
+                  <p>Clean, reliable water access for communities, powered by the sun</p>
                   <div className="progressbar">
                     <div className="progressline">
 
