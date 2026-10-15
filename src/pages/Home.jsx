@@ -40,7 +40,7 @@ const attractions = [
 ];
 
 const projects = [
-  { icon: WaterDropOutlinedIcon, name: "Rural water supply scheme",    loc: "Ipinsa & Oke-Igbo communities", status: "Completed",   statusClass: "status-done" },
+  { icon: WaterDropOutlinedIcon, name: "Solar-powered borehole",    loc: "Ijare & Igbara-Oke ", status: "Completed",   statusClass: "status-done" },
   { icon: BoltOutlinedIcon,      name: "Street lighting installation", loc: "All wards in Ifedore LGA",          status: "In progress", statusClass: "status-prog" },
   { icon: LocalHospitalOutlinedIcon, name: "Health centre renovation", loc: "Ward 4 — Ogbese",               status: "Completed",   statusClass: "status-done" },
   { icon: WaterDropOutlinedIcon, name: "Rural water supply scheme",    loc: "Ipinsa & Oke-Igbo communities", status: "Completed",   statusClass: "status-done" },
